@@ -5,7 +5,8 @@
 apply from: 'scripts/java6-mode.gradle'
 
 sourceSets {
-    model
+    model {
+    }
     main {
         compileClasspath += model.output
         runtimeClasspath += model.output
